@@ -1,4 +1,6 @@
 require "lucifer"
+require "spec"
+require "spec/mocks"
 
 describe Lucifer, "Testando se a classe foi instanciada" do
   
