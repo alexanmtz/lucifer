@@ -1,7 +1,8 @@
 
 class Lucifer
-  def obter_resposta
+  def obter_resposta(n)
     respostas = File.open('respostas.txt', 'r')
-    respostas.read
+    return respostas.readlines[n].strip
+    respostas.close  
   end
 end
