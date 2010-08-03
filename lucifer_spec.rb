@@ -61,7 +61,7 @@ describe Lucifer, "recebendo a pergunta e devolvendo a resposta" do
     pergunta = "Com quantos paus se faz uma canoa?"
     resposta = @lucifer.perguntar(pergunta)
     
-    resposta.should == "Tira a mão suja deste teclado"
+    resposta.should == "Tira a mão suja deste teclado!"
     
   end
   
