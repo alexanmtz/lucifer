@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
 
-require "lucifer"
+require "./lucifer"
 
 sessao = Lucifer.new
 puts "Faça sua pergunta: "

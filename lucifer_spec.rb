@@ -1,4 +1,7 @@
-require "lucifer"
+#!/bin/env ruby
+# encoding: utf-8
+
+require "./lucifer"
 require "spec"
 require "spec/mocks"
 

@@ -14,3 +14,9 @@ desenvolvedor que não está acostumado com TDD
 Este é um antigo programa onde você faz perguntas para o computador e ele retorna uma resposta.
 É necessário fazer elogios para que ele responda para o usuário a qualquer pergunta, caso contrário como ele é o Lucifer, irá te responder de maneira nada agradável.
 
+
+# Como rodar os testes
+
+`bundle`
+
+`spec lucifer_spec.rb`
